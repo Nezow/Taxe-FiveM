@@ -1,6 +1,6 @@
 Citizen.CreateThread(function()
 	while true do
-		Wait(50*60000)
+		Wait(50*60000) --50 = 50 minutes
 		ShowNotification("Vous venez de payer une ~b~Taxe ~w~de ~r~10$")
 		TriggerServerEvent('taxe')
 	end
